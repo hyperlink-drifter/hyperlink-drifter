@@ -8,12 +8,12 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   const data = await getData();
 
   return (
-    <div className="h-full">
+    <>
       <title>hyperlink-drifter</title>
       <meta name="description" content={data.description} />
       <link rel="icon" type="image/png" href={data.icon} />
-      <main className="h-full grid grid-cols-1 grid-rows-1">{children}</main>
-    </div>
+      <main>{children}</main>
+    </>
   );
 }
 
