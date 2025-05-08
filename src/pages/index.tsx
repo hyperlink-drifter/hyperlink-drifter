@@ -2,13 +2,10 @@ export default async function HomePage() {
   return (
     <div className="h-full grid grid-cols-1 grid-rows-1">
       <picture className="grid grid-cols-subgrid grid-rows-subgrid col-span-full row-span-full place-self-stretch">
-        <source
-          type="image/webp"
-          srcSet="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2ZqbWs2aWIxcGx2MTFwMTY1aWt6ZmtwdmlxYWI2cW0zYWxpa2JlcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7qE6GmiEj9QsrAKA/giphy.webp"
-        />
+        <source type="image/webp" srcSet="/images/hyperlink-drifter.webp" />
         <img
           className="col-span-full row-span-full place-self-stretch object-cover"
-          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2ZqbWs2aWIxcGx2MTFwMTY1aWt6ZmtwdmlxYWI2cW0zYWxpa2JlcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7qE6GmiEj9QsrAKA/giphy.gif"
+          src="/images/hyperlink-drifter-gif.gif"
           width="100%"
           height="100%"
           alt="80s smile GIF by eniac"
