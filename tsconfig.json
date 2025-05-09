@@ -9,6 +9,12 @@
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "waku": ["node_modules/waku"],
+      "waku/*": ["node_modules/waku/*"],
+      "@/*": ["./src/*"]
+    }
   }
 }
