@@ -8,7 +8,9 @@ import type { getConfig as Index_getConfig } from './pages/index';
 
 // prettier-ignore
 type Page =
-| ({ path: '/' } & GetConfigResponse<typeof Index_getConfig>);
+| ({ path: '/' } & GetConfigResponse<typeof Index_getConfig>)
+| { path: '/posts/[slug]'; render: 'dynamic' }
+| { path: '/posts'; render: 'dynamic' };
 
 // prettier-ignore
 declare module 'waku/router' {
