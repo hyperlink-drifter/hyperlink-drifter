@@ -34,7 +34,7 @@ content:
                 type: string
               - name: a
                 label: A
-                type: string
+                type: text
       - name: contact
         label: Contact information
         type: object
