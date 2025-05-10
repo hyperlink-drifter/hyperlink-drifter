@@ -18,7 +18,7 @@ content:
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
       - name: faq-section
-        label: FAQ Section
+        label: FAQ Section ❔
         type: object
         fields: 
           - name: headline
