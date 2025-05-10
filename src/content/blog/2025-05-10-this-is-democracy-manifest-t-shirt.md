@@ -3,6 +3,14 @@ author: Me
 title: This is democracy manifest T-Shirt
 slug: this-is-democracy-manifest-t-shirt
 cover: /Hades+greek+statue.jpg
+faq-section:
+  faq:
+    - q: What sets Retro Roll apart from traditional marketing methods?
+      a: Unlike traditional marketing methods that rely on passive advertising, Retro
+        Roll offers a hands-on, immersive experience that allows consumers to
+        interact with your brand in a memorable way. By bringing your brand
+        directly to the streets, we create lasting impressions that resonate
+        with consumers long after the campaign ends.
 contact:
   first_name: Jane
   last_name: Doe
