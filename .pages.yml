@@ -17,6 +17,17 @@ content:
         label: Preview image
         type: image
         description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+      - name: faq
+        label: FAQ
+        type: object
+        list: true
+        fields: 
+          - name: q
+            label: Q
+            type: string
+          - name: a
+            label: A
+            type: string
       - name: contact
         label: Contact information
         type: object
