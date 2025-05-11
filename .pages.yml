@@ -6,6 +6,7 @@ content:
     label: FAQ Collection
     type: collection
     path: src/content/faq
+    filename: "{year}-{month}-{day}-{primary}.md"
     fields: 
       - name: title  
         label: Title
@@ -49,6 +50,7 @@ content:
         options:
           collection: faq
           value: "{filename}"
+          label: "{title}"
       - name: contact
         label: Contact information
         type: object
