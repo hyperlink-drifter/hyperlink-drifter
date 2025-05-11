@@ -48,6 +48,7 @@ content:
         type: reference
         options:
           collection: faq
+          value: "{name}"
           label: "{title}"
       - name: contact
         label: Contact information
