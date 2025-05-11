@@ -48,6 +48,7 @@ content:
         type: reference
         options:
           collection: faq
+          value: "{name}"
   - name: about
     label: About page
     type: file
