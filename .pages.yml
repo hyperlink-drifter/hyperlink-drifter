@@ -7,6 +7,9 @@ content:
     type: collection
     path: src/content/faq
     fields: 
+      - name: title  
+        label: Title
+        type: string 
       - name: faq-section
         label: FAQ Section ❔
         type: object
