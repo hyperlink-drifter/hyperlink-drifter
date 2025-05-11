@@ -48,7 +48,7 @@ content:
         type: reference
         options:
           collection: faq
-          value: "{name}"
+          value: "{id}"
       - name: contact
         label: Contact information
         type: object
