@@ -2,21 +2,11 @@ media:
   input: public
   output: /
 content:
-  - name: posts
-    label: Posts
+  - name: faq
+    label: FAQ Collection
     type: collection
-    path: src/content/blog
-    view:
-      fields: [title, draft, date]
-    fields:
-      - { name: author, label: Author, type: string }
-      - { name: title, label: Title, type: string, required: true }
-      - { name: slug, label: Slug, type: string }
-      - { name: body, label: Body, type: rich-text }
-      - name: cover
-        label: Preview image
-        type: image
-        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+    path: src/content/faq
+    fields: 
       - name: faq-section
         label: FAQ Section ❔
         type: object
@@ -35,6 +25,26 @@ content:
               - name: a
                 label: A
                 type: text
+  - name: posts
+    label: Posts
+    type: collection
+    path: src/content/blog
+    view:
+      fields: [title, draft, date]
+    fields:
+      - { name: author, label: Author, type: string }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: slug, label: Slug, type: string }
+      - { name: body, label: Body, type: rich-text }
+      - name: cover
+        label: Preview image
+        type: image
+        description: Image used in the social preview on social networks (e.g. Facebook, Twitter...)
+      - name: faq-section
+        label: FAQ Section ❔
+        type: reference
+        options:
+          collection: faq
       - name: contact
         label: Contact information
         type: object
