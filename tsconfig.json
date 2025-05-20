@@ -14,7 +14,8 @@
     "paths": {
       "waku": ["node_modules/waku"],
       "waku/*": ["node_modules/waku/*"],
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@@/*": ["./*"]
     }
   }
 }
